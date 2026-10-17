@@ -55,9 +55,9 @@ export const portfolio = {
       title: "Portfolio Website",
       category: "Landing Pages",
       description: "A personal portfolio with dark and light themes.",
-      image: "/images/project-portfolio.jpg",
+      image: "/images/project-portfolio.png",
       stack: ["Next.js", "Tailwind"],
-      liveUrl: "https://example.com",
+      liveUrl: "https://my-portfolio-bm-f380.vercel.app",
       codeUrl: "https://github.com/yourusername/portfolio"
     }
   ]
