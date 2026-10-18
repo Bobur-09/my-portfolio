@@ -25,13 +25,13 @@ export const portfolio = {
   categories: ["All", "Web Apps", "UI/UX Design", "Landing Pages"],
   projects: [
     {
-      title: "Travel Website",
-      category: "Web Apps",
-      description: "A travel experience platform with destination discovery.",
-      image: "/images/project-travel.jpg",
-      stack: ["Next.js", "React", "Tailwind"],
-      liveUrl: "https://example.com",
-      codeUrl: "https://github.com/Bobur-09/"
+      title: "Portfolio Website",
+      category: "Landing Pages",
+      description: "A personal portfolio with dark and light themes.",
+      image: "/images/project-portfolio.png",
+      stack: ["Next.js", "Tailwind"],
+      liveUrl: "https://my-portfolio-bm-f380.vercel.app",
+      codeUrl: "https://github.com/Bobur-09/my-portfolio"
     },
     {
       title: "Bizda Admin Panel",
@@ -43,6 +43,15 @@ export const portfolio = {
       codeUrl: "https://github.com/Bobur-09/bizdacrm"
     },
     {
+      title: "Travel Website",
+      category: "Web Apps",
+      description: "A travel experience platform with destination discovery.",
+      image: "/images/project-travel.jpg",
+      stack: ["Next.js", "React", "Tailwind"],
+      liveUrl: "https://example.com",
+      codeUrl: "https://github.com/Bobur-09/"
+    },
+    {
       title: "Bizda Landing Page",
       category: "UI/UX Design",
       description: "A responsive landing page for the Bizda platform.",
@@ -50,15 +59,6 @@ export const portfolio = {
       stack: ["Figma", "Next.js", "Tailwind", "Ant Design", "TypeScript"],
       liveUrl: "https://example.com",
       codeUrl: "https://github.com/yourusername/dashboard"
-    },
-    {
-      title: "Portfolio Website",
-      category: "Landing Pages",
-      description: "A personal portfolio with dark and light themes.",
-      image: "/images/project-portfolio.png",
-      stack: ["Next.js", "Tailwind"],
-      liveUrl: "https://my-portfolio-bm-f380.vercel.app",
-      codeUrl: "https://github.com/Bobur-09/my-portfolio"
     }
   ]
 } as const;
