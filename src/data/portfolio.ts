@@ -40,7 +40,7 @@ export const portfolio = {
       image: "/images/project-shop.jpg",
       stack: ["React.js", "Tailwind CSS", "Ant Design", "TypeScript", "Figma"],
       liveUrl: "https://admin.bizda.uz/",
-      codeUrl: "https://github.com/Bobur-09/"
+      codeUrl: "https://github.com/Bobur-09/bizdacrm"
     },
     {
       title: "Bizda Landing Page",
@@ -58,7 +58,7 @@ export const portfolio = {
       image: "/images/project-portfolio.png",
       stack: ["Next.js", "Tailwind"],
       liveUrl: "https://my-portfolio-bm-f380.vercel.app",
-      codeUrl: "https://github.com/yourusername/portfolio"
+      codeUrl: "https://github.com/Bobur-09/my-portfolio"
     }
   ]
 } as const;
